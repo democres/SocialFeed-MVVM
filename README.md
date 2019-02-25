@@ -2,19 +2,6 @@
 #NewsFeed
 Simple rss reader app. Example of MVVM architecture in iOS programming.
 
-
-#Usage
-On top level all you need to do is:
-
-```objectivec
-NewsFetchImpl *fetchImp = [NewsFetchImpl new];
-_viewModel = [[NewsFetchViewModel alloc] initWithServices:fetchImp];
-_viewModel.arrSources = @[[NSURL URLWithString:@"https://lenta.ru/rss"],
-[NSURL URLWithString:@"http://www.gazeta.ru/export/rss/lenta.xml"]];
-```
-ReactiveCocoa is using to notify the viewModel.
-
-
 # License 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
  this software and associated documentation files (the "Software"), to deal in
