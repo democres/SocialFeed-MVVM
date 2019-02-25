@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__52-[NewsFetchImpl fetchNewsFromSources:withComletion:]_block_invoke_2:NewsFetchImpl.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "jsonArray[0][&quot;network&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
